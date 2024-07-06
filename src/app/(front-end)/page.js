@@ -9,9 +9,10 @@ export default function Home() {
             
             <Navbar />
            
-            <main className="mt-1 text-black   mx-5">
+            <main className="mt-1 text-black">
                 <Banner />
             </main>
+           <img src='https://www.orfonline.org/public/uploads/posts/image/cotton-production.jpg' alt='01254'/>
            <Footer />
            
 
