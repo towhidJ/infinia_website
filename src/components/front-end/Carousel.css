@@ -1,0 +1,37 @@
+.mySwiper {
+  width: 100%;
+  height: 100vh; /* Set the height to fit the screen */
+}
+
+.swiper-slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden; /* Ensure the overlay covers the whole slide */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+
+  z-index: -2; /* Place the background behind the overlay */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Black with opacity */
+  z-index: -1; /* Place the overlay behind the content but above the background */
+}
