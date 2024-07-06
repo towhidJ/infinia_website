@@ -1,17 +1,19 @@
 import Banner from '@/components/front-end/Banner'
+import Footer from '@/components/front-end/Footer'
 import Navbar from '@/components/front-end/Navbar'
 import Image from 'next/image'
 
 export default function Home() {
     return (
         <>
-        <Navbar/>
-        <main className=" bg-white text-black  min-h-screen">
-                    <Banner/>
-                 <div>
-                    <h1>sgduasdgahsd asgd ashgd ashgd asuhgd ahg</h1>
-                 </div>
-        </main>
+            
+            <Navbar />
+           
+            <main className="mt-1 text-black   mx-5">
+                <Banner />
+            </main>
+           <Footer />
+           
 
         </>
     )
